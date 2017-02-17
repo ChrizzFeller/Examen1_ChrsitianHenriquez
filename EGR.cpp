@@ -3,8 +3,8 @@
 //Constructor
 EGR::EGR() {
         nombre = "";
-        simbolo = "";
-        lema = "";
+        edad = 0;
+        tipo = "";
         ataque = 0;
         defensa = 0;
 }
@@ -22,38 +22,38 @@ string EGR::getNombre() {
         return nombre;
 }
 
-//Simbolo
-void EGR::setSimbolo(string nom2) {
-        simbolo = nom2;
+//Edad
+void EGR::setEdad(int num2) {
+        edad = num2;
 }
 
-string EGR::getSimbolo() {
-        return simbolo;
+int EGR::getEdad() {
+        return edad;
 }
 
-//Lema
-void EGR::setLema(string nom3) {
-        lema = nom3;
+//Tipo de Soldado
+void EGR::setTipo(string nom3) {
+        tipo = nom3;
 }
 
-string EGR::getLema() {
-        return lema;
+string EGR::getTipo() {
+        return tipo;
 }
 
 //Ataque
-void ED::setAtaque(int num) {
+void EGR::setAtaque(int num) {
         ataque = num;
 }
 
-int ED::getAtaque() {
+int EGR::getAtaque() {
         return ataque;
 }
 
 //Defensa
-void ED::setDefensa(int num1) {
+void EGR::setDefensa(int num1) {
         defensa = num1;
 }
 
-int ED::getDefensa() {
+int EGR::getDefensa() {
  	return defensa;
 }

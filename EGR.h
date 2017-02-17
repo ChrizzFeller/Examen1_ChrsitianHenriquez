@@ -10,9 +10,8 @@ class EGR {
 	
 	private:
 		string nombre;
-		string simbolo;
-		string lema;
-		int cantidad;
+		int edad;
+		string tipo;
 		int ataque;
 		int defensa;
 		
@@ -22,12 +21,12 @@ class EGR {
 		//Nombre
                 void setNombre(string);
                 string getNombre();
-                //Simbolo
-                void setSimbolo(string);
-                string getSimbolo();
-                //Lema
-                void setLema(string);
-                string getLema();
+                //Edad
+                void setEdad(int);
+                int getEdad();
+                //Tipo
+                void setTipo(string);
+                string getTipo();
                 //Ataque
                 void setAtaque(int);
                 int getAtaque();
