@@ -3,6 +3,9 @@
 #include <string>
 #include <vector>
 
+#ifndef STARK_H
+#define STARK_H
+
 using namespace std;
 
 class Starks {
@@ -19,27 +22,9 @@ class Starks {
 	public:
 		Starks(string,int,string,string,vector<EPF*>,string,int);
 		~Starks();
-		//Jefe
-		void setJefe(string);
-                string getJefe();
-		//Cantidad de Lobos
-		void setLobos(int);
-                int getLobos();
-		//Animal Emblema
-		void setEmblema(string);
-                string getEmblema();
-		//Lema
-		void setLema(string);
-                string getLema();
 		//Ejercito de pequeñas familias nobles
 		void setEjercito(EPF*);
-                string getEjercito(int);
-		//Guerrero mas valioso
-		void setGuerrero(string);
-                string getGuerrero();
-		//Cantidad de Integrantes
-		void setIntegrantes(int);
-                int getIntegrantes();
+                EPF* getEjercito(int);
 };
 
 #endif
