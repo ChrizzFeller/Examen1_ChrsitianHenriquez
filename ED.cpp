@@ -11,7 +11,7 @@ ED::ED() {
 }
 
 //Destructor
-ED:~ED() {
+ED::~ED() {
 }
 
 //Nombre
