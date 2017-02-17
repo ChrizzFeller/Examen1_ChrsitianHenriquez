@@ -1,5 +1,7 @@
 #include "ED.h"
 
+using namespace std;
+
 //Constructor
 ED::ED() {
 	nombre = "";

@@ -1,5 +1,7 @@
 #include "EGR.h"
 
+using namespace std;
+
 //Constructor
 EGR::EGR() {
         nombre = "";
@@ -10,7 +12,7 @@ EGR::EGR() {
 }
 
 //Destructor
-EGR:~EGR() {
+EGR::~EGR() {
 }
 
 //Nombre

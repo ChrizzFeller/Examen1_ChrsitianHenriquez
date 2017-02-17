@@ -4,6 +4,8 @@
 #ifndef EPF_H
 #define EPF_H
 
+using namespace std;
+
 class EPF {
 
 	private:
@@ -24,7 +26,7 @@ class EPF {
                 void setSimbolo(string);
                 string getSimbolo();
                 //Lema
-                void seLema(string);
+                void setLema(string);
                 string getLema();
                 //Cantidad
                 void setCantidad(int);

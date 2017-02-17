@@ -1,5 +1,7 @@
 #include "EPF.h"
 
+using namespace std;
+
 //Constructor
 EPF::EPF() {
 	nombre = "";
@@ -7,44 +9,48 @@ EPF::EPF() {
 	lema = "";
 	cantidad = 0;
 	ataque = 0;
-	defesa = 0;	
+	defensa = 0;	
 }
 
 //Destructor
-EPF::~EPF {
+EPF::~EPF() {
 }
 
 
 //Nombre
-EPF::setNombre(string nom) {
+void EPF::setNombre(string nom) {
 	nombre = nom;
 }
 
-EPF::getNombre() {
+string EPF::getNombre() {
 	return nombre;
 }
 
 //Simbolo
-EPF::setSimbolo(string nom2) {
+void EPF::setSimbolo(string nom2) {
 	simbolo = nom2;
 }
 
-EPF::getSimbolo() {
+string EPF::getSimbolo() {
 	return simbolo;
 }
 
 //Lema
-EPF::setLema(string nom3) {
+void EPF::setLema(string nom3) {
 	lema = nom3;
 }
 
-EPF::getLema() {
+string EPF::getLema() {
 	return lema;
 }
 
 //Cantidad
-EPF::setCantidad(int num2) {
+void EPF::setCantidad(int num2) {
 	cantidad = num2;
+}
+
+int EPF::getCantidad() {
+	return cantidad;
 }
 
 //Ataque

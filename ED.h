@@ -1,8 +1,10 @@
-//clase dothraki
+//Clase dothraki
 #include <string>
 
 #ifndef ED_H
 #define ED_H
+
+using namespace std;
 
 class ED {
 
