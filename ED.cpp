@@ -10,6 +10,10 @@ ED::ED() {
 	defensa = 0;
 }
 
+//Destructor
+ED:~ED() {
+}
+
 //Nombre
 void ED::setNombre(string nom) {
 	nombre = nom;
