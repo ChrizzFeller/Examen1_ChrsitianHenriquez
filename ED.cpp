@@ -3,13 +3,13 @@
 using namespace std;
 
 //Constructor
-ED::ED() {
-	nombre = "";
-	jefe = "";
-	nombreC = "";
-	colorC = "";
-	ataque = 0;
-	defensa = 0;
+ED::ED(string n1, string n2, string n3, string n4, int nu1, int nu2) {
+	nombre = n1;
+	jefe = n2;
+	nombreC = n3;
+	colorC = n4;
+	ataque = nu1;
+	defensa = nu2;
 }
 
 //Destructor

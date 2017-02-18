@@ -5,7 +5,7 @@
 using namespace std;
 
 //Constructor
-Lannister::Lannister(string n1, string n2, string n3, vector<EGR*> temp,double nu0 ,int nu2, int nu3) {
+Lannister::Lannister(string n1, string n2, string n3, vector<EGR*> temp,int nu0 ,int nu2, int nu3) {
         jefe = n1;
         animal = n2;
         lema = n3;
@@ -22,10 +22,10 @@ Lannister::~Lannister() {
 }
 
 //Ejercito de ...
-void Lannister::setEjercito(EGR* temp) {
+void Lannister::setEjercito2(EGR* temp) {
         ejercitosGR.push_back(temp);
 }
 
-EGR* Lannister::getEjercito(int num) {
+EGR* Lannister::getEjercito2(int num) {
         return ejercitosGR.at(num);
 }

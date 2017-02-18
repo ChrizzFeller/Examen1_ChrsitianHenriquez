@@ -22,10 +22,10 @@ Starks::~Starks() {
 }
 
 //Ejercito de ...
-void Starks::setEjercito(EPF* temp) {
+void Starks::setEjercito1(EPF* temp) {
 	ejercitosPN.push_back(temp);
 }
 
-EPF* Starks::getEjercito(int num) {
+EPF* Starks::getEjercito1(int num) {
 	return ejercitosPN.at(num);
 }

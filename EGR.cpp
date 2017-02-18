@@ -3,12 +3,12 @@
 using namespace std;
 
 //Constructor
-EGR::EGR() {
-        nombre = "";
-        edad = 0;
-        tipo = "";
-        ataque = 0;
-        defensa = 0;
+EGR::EGR(string n1, string n2, int nu1, int nu2, int nu3) {
+        nombre = n1;
+        edad = nu1;
+        tipo = n2;
+        ataque = nu2;
+        defensa = nu3;
 }
 
 //Destructor

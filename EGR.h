@@ -4,7 +4,7 @@
 using namespace std;
 
 #ifndef EGR_H
-#define EGR_h
+#define EGR_H
 
 class EGR {
 	
@@ -16,7 +16,7 @@ class EGR {
 		int defensa;
 		
 	public:
-		EGR();
+		EGR(string, string, int, int, int);
 		~EGR();
 		//Nombre
                 void setNombre(string);

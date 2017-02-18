@@ -3,13 +3,13 @@
 using namespace std;
 
 //Constructor
-EPF::EPF() {
-	nombre = "";
-	simbolo = "";
-	lema = "";
-	cantidad = 0;
-	ataque = 0;
-	defensa = 0;	
+EPF::EPF(string n1, string n2, string n3, int nu1, int nu2, int nu3) {
+	nombre = n1;
+	simbolo = n2;
+	lema = n3;
+	cantidad = nu1;
+	ataque = nu2;
+	defensa = nu3;	
 }
 
 //Destructor

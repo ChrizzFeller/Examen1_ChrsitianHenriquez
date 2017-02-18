@@ -17,7 +17,7 @@ class EPF {
 		int defensa;
 		
 	public:
-		EPF();
+		EPF(string, string, string, int, int, int);
 		~EPF();
 		//Nombre
                 void setNombre(string);

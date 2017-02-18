@@ -21,11 +21,11 @@ Targaryen::~Targaryen() {
 }
 
 //Ejercito de ...
-void Targaryen::setEjercito(ED* temp) {
+void Targaryen::setEjercito3(ED* temp) {
         ejercitosD.push_back(temp);
 }
 
-ED* Targaryen::getEjercito(int num) {
+ED* Targaryen::getEjercito3(int num) {
         return ejercitosD.at(num);
 }
 

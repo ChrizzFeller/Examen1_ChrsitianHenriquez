@@ -22,8 +22,8 @@ class Targaryen {
                 Targaryen(string,string,string,int,vector<ED*>,int);
                 ~Targaryen();
                 //Ejercito de pequeñas familias nobles
-                void setEjercito(ED*);
-                ED* getEjercito(int);
+                void setEjercito3(ED*);
+                ED* getEjercito3(int);
 };
 
 #endif

@@ -14,16 +14,16 @@ class Lannister {
 		string animal;
 		string lema;
 		vector<EGR*> ejercitosGR;
-		double cantidadD;
+		int cantidadD;
 		int fuerza;
 		int integrantes;
 
 	public:
-		Lannister(string, string, string, vector<EGR*>, double, int, int);
+		Lannister(string, string, string, vector<EGR*>, int, int, int);
 		~Lannister();
 		//Ejercitos de Guardias Reales
-		void setEjercito(EGR*);
-		EGR* getEjercito(int);
+		void setEjercito2(EGR*);
+		EGR* getEjercito2(int);
 
 };
 

@@ -17,7 +17,7 @@ class ED {
 		int defensa;
 
 	public:
-		ED();
+		ED(string, string, string, string, int, int);
 		~ED();
 		//Nombre
 		void setNombre(string);
