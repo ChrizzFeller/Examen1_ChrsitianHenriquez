@@ -130,7 +130,19 @@ int main() {
 			}
 		//Listar
 		} else if (resp == 2) {
-		
+			int resp4;
+			cout << "Cual familia desea listar?" << "\n";
+			cout << "1) Starks\n";
+			cout << "2) Lannister\n";
+			cout << "3) Targaryen\n";
+			cin >> resp4;
+			if (resp4 == 1) {
+				
+			} else if(resp4 == 2) {
+			
+			} else if(resp4 == 3) {
+			
+			}
 		//Eliminar
 		} else if (resp == 3) {
 		
