@@ -126,7 +126,7 @@ int main() {
                                 cin >> def3;
                                 ED* guerrero = new ED(nombre2, jefeB, caballo, color, atk3, def3);
                                 cout << "Dothraki creado!" << endl;
-                                Targaruen::setEjercito3(guerrero);
+                                Targaryen::setEjercito3(guerrero);
 			}
 		//Listar
 		} else if (resp == 2) {
